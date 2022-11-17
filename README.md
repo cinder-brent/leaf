@@ -1,4 +1,4 @@
-# leaf
+# Leaf
 
 Leaf is a teeny, tiny PHP application for
 building web apps. It is potentially the last
