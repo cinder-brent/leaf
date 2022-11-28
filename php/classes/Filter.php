@@ -35,7 +35,7 @@ class Filter {
 		// Set
 
 			// Filter
-			$this->set_filter($filter);
+			$this->setFilter($filter);
 
 			// Arguments
 
@@ -56,7 +56,7 @@ class Filter {
 		 *
 		 * @return callable $filter
 		 */
-		function set_filter(callable $filter) {
+		function setFilter(callable $filter) {
 
 			// Simply set $this->filter to $filter and return
 			return $this->filter = $filter;
@@ -68,7 +68,7 @@ class Filter {
 		 *
 		 * @return callable
 		 */
-		function get_filter() {
+		function getFilter() {
 
 			// Simply return $this->filter
 			return $this->filter;
